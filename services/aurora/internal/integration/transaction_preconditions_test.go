@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/services/aurora/internal/test/integration"
-	"github.com/hcnet/go/txnbuild"
-	"github.com/hcnet/go/xdr"
+	sdk "github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/network"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test/integration"
+	"github.com/sanjayhashcash/go/txnbuild"
+	"github.com/sanjayhashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

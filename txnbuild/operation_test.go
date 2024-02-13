@@ -3,10 +3,10 @@ package txnbuild
 import (
 	"testing"
 
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/gxdr"
-	"github.com/hcnet/go/randxdr"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/gxdr"
+	"github.com/sanjayhashcash/go/randxdr"
+	"github.com/sanjayhashcash/go/xdr"
 	goxdr "github.com/xdrpp/goxdr/xdr"
 
 	"github.com/stretchr/testify/assert"

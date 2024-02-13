@@ -1,7 +1,7 @@
 package auroraclient
 
 import (
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/errors"
 	"net/http"
 )
 

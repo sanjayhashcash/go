@@ -5,7 +5,7 @@ Go implementation of [Federation](https://developers.hcnet.org/docs/glossary/fed
 
 ## Downloading the server
 
-[Prebuilt binaries](https://github.com/hcnet/go/releases) of the federation server are available on the [releases page](https://github.com/hcnet/go/releases).
+[Prebuilt binaries](https://github.com/sanjayhashcash/go/releases) of the federation server are available on the [releases page](https://github.com/sanjayhashcash/go/releases).
 
 ## Config
 
@@ -97,7 +97,7 @@ This service can built from source, provided you have installed the [go tools](h
 Given you have a running golang installation, you can build the server with:
 
 ```
-go get -u github.com/hcnet/go/services/federation
+go get -u github.com/sanjayhashcash/go/services/federation
 ```
 
 After successful completion, you should find `bin/federation` is present in your configured GOPATH.

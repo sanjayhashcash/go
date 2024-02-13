@@ -12,15 +12,15 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
 
-	aurora "github.com/hcnet/go/services/aurora/internal"
-	"github.com/hcnet/go/services/aurora/internal/db2/schema"
-	"github.com/hcnet/go/services/aurora/internal/ingest"
-	support "github.com/hcnet/go/support/config"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	hlog "github.com/hcnet/go/support/log"
+	aurora "github.com/sanjayhashcash/go/services/aurora/internal"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/schema"
+	"github.com/sanjayhashcash/go/services/aurora/internal/ingest"
+	support "github.com/sanjayhashcash/go/support/config"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	hlog "github.com/sanjayhashcash/go/support/log"
 )
 
 var dbCmd = &cobra.Command{

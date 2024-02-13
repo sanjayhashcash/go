@@ -3,9 +3,9 @@
 package txnbuild
 
 import (
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // CreateClaimableBalance represents the Hcnet create claimable balance operation. See

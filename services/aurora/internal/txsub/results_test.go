@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
 	"github.com/stretchr/testify/mock"
 )
 

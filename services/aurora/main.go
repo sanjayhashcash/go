@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hcnet/go/services/aurora/cmd"
+	"github.com/sanjayhashcash/go/services/aurora/cmd"
 )
 
 func main() {

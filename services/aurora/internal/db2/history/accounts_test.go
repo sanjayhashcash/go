@@ -5,9 +5,9 @@ import (
 
 	"github.com/guregu/null"
 	"github.com/guregu/null/zero"
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

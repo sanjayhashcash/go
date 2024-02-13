@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	aurora "github.com/hcnet/go/services/aurora/internal"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/log"
+	aurora "github.com/sanjayhashcash/go/services/aurora/internal"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/log"
 )
 
 var recordMetricsCmd = &cobra.Command{

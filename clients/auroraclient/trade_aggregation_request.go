@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // BuildURL creates the endpoint to be queried based on the data in the TradeAggregationRequest struct.

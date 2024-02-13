@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/render/problem"
 )
 
 type encryptedKeysData struct {

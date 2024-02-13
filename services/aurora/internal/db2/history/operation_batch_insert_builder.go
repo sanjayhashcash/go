@@ -5,8 +5,8 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // OperationBatchInsertBuilder is used to insert a transaction's operations into the

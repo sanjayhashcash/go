@@ -12,13 +12,13 @@ import (
 	"time"
 
 	"github.com/guregu/null"
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/keypair"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/keypair"
 
-	"github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	hcnetTime "github.com/hcnet/go/support/time"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	hcnetTime "github.com/sanjayhashcash/go/support/time"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func TestLiquidityPoolTrades(t *testing.T) {
@@ -592,7 +592,7 @@ func TestTradeActions_IndexRegressions(t *testing.T) {
 		ht.Assert.Equal(404, w.Code) //This used to be 200 with length 0
 	})
 
-	t.Run("Regression for nil prices: https://github.com/hcnet/go/issues/357", func(t *testing.T) {
+	t.Run("Regression for nil prices: https://github.com/sanjayhashcash/go/issues/357", func(t *testing.T) {
 		ht := StartHTTPTestWithoutScenario(t)
 		dbQ := &history.Q{ht.AuroraSession()}
 		history.TradeScenario(ht.T, dbQ)
@@ -609,7 +609,7 @@ func TestTradeActions_IndexRegressions(t *testing.T) {
 
 // TestTradeActions_AggregationOrdering checks that open/close aggregation
 // fields are correct for multiple trades that occur in the same ledger
-// https://github.com/hcnet/go/issues/215
+// https://github.com/sanjayhashcash/go/issues/215
 func TestTradeActions_AggregationOrdering(t *testing.T) {
 	ht := StartHTTPTestWithoutScenario(t)
 	defer ht.Finish()

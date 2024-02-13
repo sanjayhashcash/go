@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/hcnet/go/services/regulated-assets-approval-server/internal/serve/httperror"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/http/httpdecode"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/httpjson"
+	"github.com/sanjayhashcash/go/services/regulated-assets-approval-server/internal/serve/httperror"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/http/httpdecode"
+	"github.com/sanjayhashcash/go/support/log"
+	"github.com/sanjayhashcash/go/support/render/httpjson"
 )
 
 type kycGetResponse struct {

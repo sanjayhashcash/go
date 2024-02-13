@@ -3,9 +3,9 @@ package httperror
 import (
 	"net/http"
 
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/render/httpjson"
+	"github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/render/httpjson"
 )
 
 type Error struct {

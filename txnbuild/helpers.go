@@ -3,10 +3,10 @@ package txnbuild
 import (
 	"fmt"
 
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/strkey"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/strkey"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // validateHcnetPublicKey returns an error if a public key is invalid. Otherwise, it returns nil.
@@ -156,7 +156,7 @@ func validateChangeTrustAsset(asset ChangeTrustAsset) error {
 // It returns an error if any field is invalid.
 func validatePassiveOffer(buying, selling Asset, offerAmount string, price xdr.Price) error {
 	// Note: see discussion on how this can be improved:
-	// https://github.com/hcnet/go/pull/1707#discussion_r321508440
+	// https://github.com/sanjayhashcash/go/pull/1707#discussion_r321508440
 	err := validateHcnetAsset(buying)
 	if err != nil {
 		return NewValidationError("Buying", err.Error())
@@ -216,7 +216,7 @@ func NewValidationError(field, message string) *ValidationError {
 }
 
 // ParseAssetString parses an asset string in canonical form (SEP-11) into an Asset structure.
-// https://github.com/hcnet/hcnet-protocol/blob/master/ecosystem/sep-0011.md#asset
+// https://github.com/sanjayhashcash/hcnet-protocol/blob/master/ecosystem/sep-0011.md#asset
 func ParseAssetString(canonical string) (Asset, error) {
 	assets, err := xdr.BuildAssets(canonical)
 	if err != nil {

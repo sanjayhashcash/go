@@ -6,8 +6,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	supporthttp "github.com/hcnet/go/support/http"
-	supportlog "github.com/hcnet/go/support/log"
+	supporthttp "github.com/sanjayhashcash/go/support/http"
+	supportlog "github.com/sanjayhashcash/go/support/log"
 )
 
 func serveAdmin(opts Options, deps adminDeps) {

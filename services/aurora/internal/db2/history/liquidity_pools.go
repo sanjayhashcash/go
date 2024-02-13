@@ -10,9 +10,9 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
 	"github.com/jmoiron/sqlx"
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // LiquidityPoolsQuery is a helper struct to configure queries to liquidity pools

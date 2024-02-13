@@ -4,10 +4,10 @@ import (
 	"go/types"
 
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/serve"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/support/config"
-	supportlog "github.com/hcnet/go/support/log"
+	"github.com/sanjayhashcash/go/exp/services/recoverysigner/internal/serve"
+	"github.com/sanjayhashcash/go/network"
+	"github.com/sanjayhashcash/go/support/config"
+	supportlog "github.com/sanjayhashcash/go/support/log"
 )
 
 type ServeCommand struct {

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	hProtocol "github.com/hcnet/go/protocols/aurora"
+	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
 )
 
 // Volume stores volume of a various base pair in both XLM and USD.

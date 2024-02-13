@@ -3,8 +3,8 @@ package history
 import (
 	"context"
 
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // stateVerificationLockId is the objid for the advisory lock acquired during

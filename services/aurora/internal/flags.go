@@ -14,14 +14,14 @@ import (
 
 	"github.com/stellar/throttled"
 
-	"github.com/hcnet/go/ingest/ledgerbackend"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/services/aurora/internal/db2/schema"
-	apkg "github.com/hcnet/go/support/app"
-	support "github.com/hcnet/go/support/config"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/log"
+	"github.com/sanjayhashcash/go/ingest/ledgerbackend"
+	"github.com/sanjayhashcash/go/network"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/schema"
+	apkg "github.com/sanjayhashcash/go/support/app"
+	support "github.com/sanjayhashcash/go/support/config"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/log"
 )
 
 const (
@@ -130,7 +130,7 @@ func checkMigrations(config Config) error {
 		return fmt.Errorf(
 			`There are %v migrations to apply in the "up" direction.
 The necessary migrations are: %v
-A database migration is required to run this version (%v) of Aurora. Run "aurora db migrate up" to update your DB. Consult the Changelog (https://github.com/hcnet/go/blob/master/services/aurora/CHANGELOG.md) for more information.`,
+A database migration is required to run this version (%v) of Aurora. Run "aurora db migrate up" to update your DB. Consult the Changelog (https://github.com/sanjayhashcash/go/blob/master/services/aurora/CHANGELOG.md) for more information.`,
 			len(migrationsToApplyUp),
 			migrationsToApplyUp,
 			apkg.Version(),
@@ -140,7 +140,7 @@ A database migration is required to run this version (%v) of Aurora. Run "aurora
 	nMigrationsDown := schema.GetNumMigrationsDown(config.DatabaseURL)
 	if nMigrationsDown > 0 {
 		return fmt.Errorf(
-			`A database migration DOWN to an earlier version of the schema is required to run this version (%v) of Aurora. Consult the Changelog (https://github.com/hcnet/go/blob/master/services/aurora/CHANGELOG.md) for more information.
+			`A database migration DOWN to an earlier version of the schema is required to run this version (%v) of Aurora. Consult the Changelog (https://github.com/sanjayhashcash/go/blob/master/services/aurora/CHANGELOG.md) for more information.
 In order to migrate the database DOWN, using the HIGHEST version number of Aurora you have installed (not this binary), run "aurora db migrate down %v".`,
 			apkg.Version(),
 			nMigrationsDown,

@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/exp/slices"
 
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func TestAssetStatContracts(t *testing.T) {

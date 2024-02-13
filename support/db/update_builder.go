@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"reflect"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // Exec executes the query that has been previously configured on the

@@ -6,7 +6,7 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"github.com/hcnet/go/services/aurora/internal/ledger"
+	"github.com/sanjayhashcash/go/services/aurora/internal/ledger"
 	"testing"
 	"time"
 
@@ -18,9 +18,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 type SystemTestSuite struct {

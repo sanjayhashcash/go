@@ -6,10 +6,10 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/toid"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func TestOperationQueries(t *testing.T) {

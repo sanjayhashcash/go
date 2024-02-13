@@ -9,10 +9,10 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/hcnet/go/support/collections/set"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/ordered"
+	"github.com/sanjayhashcash/go/support/collections/set"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/ordered"
 )
 
 // FutureAccountID represents a future history account.
@@ -130,7 +130,7 @@ func (a *AccountLoader) Exec(ctx context.Context, session db.SessionInterface) e
 	}
 	addresses = addresses[:insert]
 	// sort entries before inserting rows to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/hcnet/go/issues/2370
+	// https://github.com/sanjayhashcash/go/issues/2370
 	sort.Strings(addresses)
 
 	err := bulkInsert(

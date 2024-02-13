@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func (herr Error) Error() string {

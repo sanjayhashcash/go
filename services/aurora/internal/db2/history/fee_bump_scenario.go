@@ -12,11 +12,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/network"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/toid"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func ledgerToMap(ledger Ledger) map[string]interface{} {

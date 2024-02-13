@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	tdb "github.com/hcnet/go/services/aurora/internal/test/db"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	tdb "github.com/sanjayhashcash/go/services/aurora/internal/test/db"
 )
 
 type HTTPT struct {

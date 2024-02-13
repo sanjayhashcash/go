@@ -1,12 +1,12 @@
 package resourceadapter
 
 import (
-	"github.com/hcnet/go/amount"
-	protocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/aurora/internal/assets"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/amount"
+	protocol "github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/services/aurora/internal/assets"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func PopulatePoolShareBalance(dest *protocol.Balance, row history.TrustLine) (err error) {

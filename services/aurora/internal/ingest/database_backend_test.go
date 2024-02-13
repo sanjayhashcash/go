@@ -3,9 +3,9 @@ package ingest
 import (
 	"testing"
 
-	"github.com/hcnet/go/ingest/ledgerbackend"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/ingest/ledgerbackend"
+	"github.com/sanjayhashcash/go/network"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
 )
 
 func TestGetLatestLedger(t *testing.T) {

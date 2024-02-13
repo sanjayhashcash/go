@@ -9,10 +9,10 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/toid"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // LedgerSequence return the ledger in which the effect occurred.
@@ -51,7 +51,7 @@ func preprocessDetails(details string) ([]byte, error) {
 		if strings.HasSuffix(k, "_muxed_id") {
 			if vNumber, ok := v.(json.Number); ok {
 				// transform it into a string so that _muxed_id unmarshaling works with `,string` tags
-				// see https://github.com/hcnet/go/pull/3716#issuecomment-867057436
+				// see https://github.com/sanjayhashcash/go/pull/3716#issuecomment-867057436
 				dest[k] = vNumber.String()
 			}
 		}

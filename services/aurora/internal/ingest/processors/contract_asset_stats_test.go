@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func getKeyHashForBalance(t *testing.T, assetContractId, holderID [32]byte) xdr.Hash {

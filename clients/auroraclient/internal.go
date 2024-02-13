@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hcnet/go/support/clock"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/clock"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // decodeResponse decodes the response from a request to a aurora server

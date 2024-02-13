@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/hcnet/go/protocols/aurora/base"
+	"github.com/sanjayhashcash/go/protocols/aurora/base"
 
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	. "github.com/hcnet/go/services/aurora/internal/test/transactions"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	. "github.com/sanjayhashcash/go/services/aurora/internal/test/transactions"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func TestTransactionOperationID(t *testing.T) {
@@ -1504,7 +1504,7 @@ func getSponsoredSandwichWrappers() []*transactionOperationWrapper {
 
 	sponsorMuxed := sponsor
 	// Do not provide the source explicitly so that the transaction source is used
-	// It tests https://github.com/hcnet/go/issues/2982 .
+	// It tests https://github.com/sanjayhashcash/go/issues/2982 .
 	// tx.Envelope.Operations()[0].SourceAccount = &sponsorMuxed
 	tx.Envelope.Operations()[0].SourceAccount = nil
 	tx.Envelope.V1.Tx.SourceAccount = sponsorMuxed

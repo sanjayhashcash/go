@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hcnet/go/services/aurora/internal/codes"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/services/aurora/internal/codes"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 var (

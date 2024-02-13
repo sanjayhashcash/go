@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	auroraContext "github.com/hcnet/go/services/aurora/internal/context"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/render/problem"
+	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
+	auroraContext "github.com/sanjayhashcash/go/services/aurora/internal/context"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/support/render/problem"
 )
 
 // these admin HTTP endpoints are documented in services/aurora/internal/httpx/static/admin_oapi.yml

@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/price"
-	"github.com/hcnet/go/strkey"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/network"
+	"github.com/sanjayhashcash/go/price"
+	"github.com/sanjayhashcash/go/strkey"
+	"github.com/sanjayhashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

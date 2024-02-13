@@ -8,10 +8,10 @@ This project is maintained by the Hcnet Development Foundation.
     import (
         "log"
         
-        "github.com/hcnet/go/clients/auroraclient"
-        "github.com/hcnet/go/keypair"
-        "github.com/hcnet/go/network"
-        "github.com/hcnet/go/txnbuild"
+        "github.com/sanjayhashcash/go/clients/auroraclient"
+        "github.com/sanjayhashcash/go/keypair"
+        "github.com/sanjayhashcash/go/network"
+        "github.com/sanjayhashcash/go/txnbuild"
     )
     
     // Make a keypair for a known account from a secret seed
@@ -65,10 +65,10 @@ This project is maintained by the Hcnet Development Foundation.
 ```
 
 ## Getting Started
-This library is aimed at developers building Go applications on top of the [Hcnet network](https://www.hcnet.org/). Transactions constructed by this library may be submitted to any Aurora instance for processing onto the ledger, using any Hcnet SDK client. The recommended client for Go programmers is [auroraclient](https://github.com/hcnet/go/tree/master/clients/auroraclient). Together, these two libraries provide a complete Hcnet SDK.
+This library is aimed at developers building Go applications on top of the [Hcnet network](https://www.hcnet.org/). Transactions constructed by this library may be submitted to any Aurora instance for processing onto the ledger, using any Hcnet SDK client. The recommended client for Go programmers is [auroraclient](https://github.com/sanjayhashcash/go/tree/master/clients/auroraclient). Together, these two libraries provide a complete Hcnet SDK.
 
-* The [txnbuild API reference](https://godoc.org/github.com/hcnet/go/txnbuild).
-* The [auroraclient API reference](https://godoc.org/github.com/hcnet/go/clients/auroraclient).
+* The [txnbuild API reference](https://godoc.org/github.com/sanjayhashcash/go/txnbuild).
+* The [auroraclient API reference](https://godoc.org/github.com/sanjayhashcash/go/clients/auroraclient).
 
 An easy-to-follow demonstration that exercises this SDK on the TestNet with actual accounts is also included! See the [Demo](#demo) section below.
 
@@ -77,20 +77,20 @@ An easy-to-follow demonstration that exercises this SDK on the TestNet with actu
 * [Modules](https://github.com/golang/go/wiki/Modules) to manage dependencies
 
 ### Installing
-* `go get github.com/hcnet/go/txnbuild`
+* `go get github.com/sanjayhashcash/go/txnbuild`
 
 ## Running the tests
 Run the unit tests from the package directory: `go test`
 
 ## Demo
 To see the SDK in action, build and run the demo:
-* Enter the demo directory: `cd $GOPATH/src/github.com/hcnet/go/txnbuild/cmd/demo`
+* Enter the demo directory: `cd $GOPATH/src/github.com/sanjayhashcash/go/txnbuild/cmd/demo`
 * Build the demo: `go build`
 * Run the demo: `./demo init`
 
 
 ## Contributing
-Please read [Code of Conduct](https://github.com/hcnet/.github/blob/master/CODE_OF_CONDUCT.md) to understand this project's communication rules.
+Please read [Code of Conduct](https://github.com/sanjayhashcash/.github/blob/master/CODE_OF_CONDUCT.md) to understand this project's communication rules.
 
 To submit improvements and fixes to this library, please see [CONTRIBUTING](../CONTRIBUTING.md).
 

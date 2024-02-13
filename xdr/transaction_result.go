@@ -1,6 +1,6 @@
 package xdr
 
-import "github.com/hcnet/go/support/errors"
+import "github.com/sanjayhashcash/go/support/errors"
 
 // Successful returns true if the transaction succeeded
 func (r TransactionResult) Successful() bool {

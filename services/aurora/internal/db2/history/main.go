@@ -19,12 +19,12 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"
 
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/support/collections/set"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	strtime "github.com/hcnet/go/support/time"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/support/collections/set"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	strtime "github.com/sanjayhashcash/go/support/time"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 const (
@@ -48,7 +48,7 @@ const (
 	// from create_account, payment, path_payment, create_account, and SAC
 	// involving transfers, mints, and burns.
 	//
-	// https://github.com/hcnet/rs-soroban-env/blob/5695440da452837555d8f7f259cc33341fdf07b0/soroban-env-host/src/native_contract/token/contract.rs#L51-L63
+	// https://github.com/sanjayhashcash/rs-soroban-env/blob/5695440da452837555d8f7f259cc33341fdf07b0/soroban-env-host/src/native_contract/token/contract.rs#L51-L63
 	EffectAccountDebited EffectType = 3
 
 	// EffectAccountThresholdsUpdated effects occur when an account changes its
@@ -221,12 +221,12 @@ const (
 
 	// EffectContractCredited effects occur when a contract receives some
 	// currency from SAC events involving transfers, mints, and burns.
-	// https://github.com/hcnet/rs-soroban-env/blob/5695440da452837555d8f7f259cc33341fdf07b0/soroban-env-host/src/native_contract/token/contract.rs#L51-L63
+	// https://github.com/sanjayhashcash/rs-soroban-env/blob/5695440da452837555d8f7f259cc33341fdf07b0/soroban-env-host/src/native_contract/token/contract.rs#L51-L63
 	EffectContractCredited EffectType = 96
 
 	// EffectContractDebited effects occur when a contract sends some currency
 	// from SAC events involving transfers, mints, and burns.
-	// https://github.com/hcnet/rs-soroban-env/blob/5695440da452837555d8f7f259cc33341fdf07b0/soroban-env-host/src/native_contract/token/contract.rs#L51-L63
+	// https://github.com/sanjayhashcash/rs-soroban-env/blob/5695440da452837555d8f7f259cc33341fdf07b0/soroban-env-host/src/native_contract/token/contract.rs#L51-L63
 	EffectContractDebited EffectType = 97
 )
 
@@ -377,7 +377,7 @@ type ContractStat struct {
 
 func (c ContractStat) Value() (driver.Value, error) {
 	// Convert the byte array into a string as a workaround to bypass buggy encoding in the pq driver
-	// (More info about this bug here https://github.com/hcnet/go/issues/5086#issuecomment-1773215436).
+	// (More info about this bug here https://github.com/sanjayhashcash/go/issues/5086#issuecomment-1773215436).
 	// By doing so, the data will be written as a string rather than hex encoded bytes.
 	val, err := json.Marshal(c)
 	return string(val), err
@@ -450,7 +450,7 @@ type ExpAssetStatAccounts struct {
 
 func (e ExpAssetStatAccounts) Value() (driver.Value, error) {
 	// Convert the byte array into a string as a workaround to bypass buggy encoding in the pq driver
-	// (More info about this bug here https://github.com/hcnet/go/issues/5086#issuecomment-1773215436).
+	// (More info about this bug here https://github.com/sanjayhashcash/go/issues/5086#issuecomment-1773215436).
 	// By doing so, the data will be written as a string rather than hex encoded bytes.
 	val, err := json.Marshal(e)
 	return string(val), err
@@ -534,7 +534,7 @@ func (e ExpAssetStatBalances) IsZero() bool {
 
 func (e ExpAssetStatBalances) Value() (driver.Value, error) {
 	// Convert the byte array into a string as a workaround to bypass buggy encoding in the pq driver
-	// (More info about this bug here https://github.com/hcnet/go/issues/5086#issuecomment-1773215436).
+	// (More info about this bug here https://github.com/sanjayhashcash/go/issues/5086#issuecomment-1773215436).
 	// By doing so, the data will be written as a string rather than hex encoded bytes.
 	val, err := json.Marshal(e)
 	return string(val), err

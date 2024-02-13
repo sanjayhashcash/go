@@ -7,7 +7,7 @@ import (
 
 // ID represents the total order of Ledgers, Transactions and
 // Operations. This is an implementation of SEP-35:
-// https://github.com/hcnet/hcnet-protocol/blob/master/ecosystem/sep-0035.md
+// https://github.com/sanjayhashcash/hcnet-protocol/blob/master/ecosystem/sep-0035.md
 //
 // Operations within the hcnet network have a total order, expressed by three
 // pieces of information:  the ledger sequence the operation was validated in,

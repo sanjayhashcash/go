@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/friendbot/internal"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/services/friendbot/internal"
+	"github.com/sanjayhashcash/go/support/render/problem"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

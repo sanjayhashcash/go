@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/support/errors"
-	supporthttp "github.com/hcnet/go/support/http"
-	supportlog "github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/health"
+	"github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/support/errors"
+	supporthttp "github.com/sanjayhashcash/go/support/http"
+	supportlog "github.com/sanjayhashcash/go/support/log"
+	"github.com/sanjayhashcash/go/support/render/health"
 	"gopkg.in/square/go-jose.v2"
 )
 

@@ -3,12 +3,12 @@ package integration
 import (
 	"testing"
 
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/protocols/aurora/effects"
-	"github.com/hcnet/go/services/aurora/internal/test/integration"
-	"github.com/hcnet/go/txnbuild"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/protocols/aurora/effects"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test/integration"
+	"github.com/sanjayhashcash/go/txnbuild"
+	"github.com/sanjayhashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

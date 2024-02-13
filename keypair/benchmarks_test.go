@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/hcnet/go/keypair"
+	"github.com/sanjayhashcash/go/keypair"
 	"github.com/stretchr/testify/require"
 )
 

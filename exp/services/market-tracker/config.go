@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	hClient "github.com/hcnet/go/clients/auroraclient"
+	hClient "github.com/sanjayhashcash/go/clients/auroraclient"
 )
 
 // Asset represents an asset on the Hcnet network

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	proto "github.com/hcnet/go/protocols/hcnetcore"
-	"github.com/hcnet/go/support/http/httptest"
+	proto "github.com/sanjayhashcash/go/protocols/hcnetcore"
+	"github.com/sanjayhashcash/go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 )
 

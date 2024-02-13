@@ -3,12 +3,12 @@ package resourceadapter
 import (
 	"context"
 
-	"github.com/hcnet/go/protocols/aurora/base"
-	"github.com/hcnet/go/protocols/aurora/effects"
-	auroraContext "github.com/hcnet/go/services/aurora/internal/context"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/render/hal"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/protocols/aurora/base"
+	"github.com/sanjayhashcash/go/protocols/aurora/effects"
+	auroraContext "github.com/sanjayhashcash/go/services/aurora/internal/context"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/support/render/hal"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 var EffectTypeNames = map[history.EffectType]string{

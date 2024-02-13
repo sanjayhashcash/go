@@ -5,8 +5,8 @@ import (
 	stdLog "log"
 
 	"github.com/spf13/cobra"
-	aurora "github.com/hcnet/go/services/aurora/internal"
-	"github.com/hcnet/go/support/config"
+	aurora "github.com/sanjayhashcash/go/services/aurora/internal"
+	"github.com/sanjayhashcash/go/support/config"
 )
 
 var (

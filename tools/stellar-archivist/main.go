@@ -13,8 +13,8 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/historyarchive"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/historyarchive"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 const checkpointFrequency = uint32(64)

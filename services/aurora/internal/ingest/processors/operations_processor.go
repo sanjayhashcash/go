@@ -8,15 +8,15 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/protocols/aurora/base"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/contractevents"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/protocols/aurora/base"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/support/contractevents"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/toid"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // OperationProcessor operations processor
@@ -326,7 +326,7 @@ func addAccountAndMuxedAccountDetails(result map[string]interface{}, a xdr.Muxed
 	if a.Type == xdr.CryptoKeyTypeKeyTypeMuxedEd25519 {
 		result[prefix+"_muxed"] = a.Address()
 		// _muxed_id fields should had ideally been stored in the DB as a string instead of uint64
-		// due to Javascript not being able to handle them, see https://github.com/hcnet/go/issues/3714
+		// due to Javascript not being able to handle them, see https://github.com/sanjayhashcash/go/issues/3714
 		// However, we released this code in the wild before correcting it. Thus, what we do is
 		// work around it (by preprocessing it into a string) in Operation.UnmarshalDetails()
 		result[prefix+"_muxed_id"] = uint64(a.Med25519.Id)
@@ -700,7 +700,7 @@ func (operation *transactionOperationWrapper) Details() (map[string]interface{},
 			var balanceChanges []map[string]interface{}
 			var parseErr error
 			if operation.skipSorobanDetails {
-				// https://github.com/hcnet/go/issues/5175
+				// https://github.com/sanjayhashcash/go/issues/5175
 				// intentionally toggle off parsing soroban meta into "asset_balance_changes"
 				balanceChanges = make([]map[string]interface{}, 0)
 			} else {

@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // Account implements the `txnbuild.Account` interface.

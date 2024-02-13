@@ -6,7 +6,7 @@ package historyarchive
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/xdr"
 	"io"
 	"time"
 )

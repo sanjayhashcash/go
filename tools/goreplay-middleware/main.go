@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/buger/goreplay/proto"
-	"github.com/hcnet/go/support/log"
+	"github.com/sanjayhashcash/go/support/log"
 )
 
 // maxPerSecond defines how many requests should be checked at max per second

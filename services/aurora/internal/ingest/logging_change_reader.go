@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/hcnet/go/ingest"
+	"github.com/sanjayhashcash/go/ingest"
 )
 
 func bToMb(b uint64) uint64 {

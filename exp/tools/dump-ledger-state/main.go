@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hcnet/go/historyarchive"
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/historyarchive"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/log"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // csvMap maintains a mapping from ledger entry type to csv file

@@ -6,13 +6,13 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/handlers/federation"
-	"github.com/hcnet/go/support/app"
-	"github.com/hcnet/go/support/config"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/http"
-	"github.com/hcnet/go/support/log"
+	"github.com/sanjayhashcash/go/handlers/federation"
+	"github.com/sanjayhashcash/go/support/app"
+	"github.com/sanjayhashcash/go/support/config"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/http"
+	"github.com/sanjayhashcash/go/support/log"
 )
 
 // Config represents the configuration of a federation server

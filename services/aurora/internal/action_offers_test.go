@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/services/aurora/internal/ingest"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/services/aurora/internal/ingest"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func TestOfferActions_Show(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hcnet/go/support/collections/set"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/ordered"
+	"github.com/sanjayhashcash/go/support/collections/set"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/ordered"
 )
 
 // FutureClaimableBalanceID represents a future history claimable balance.
@@ -123,7 +123,7 @@ func (a *ClaimableBalanceLoader) Exec(ctx context.Context, session db.SessionInt
 	}
 	ids = ids[:insert]
 	// sort entries before inserting rows to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/hcnet/go/issues/2370
+	// https://github.com/sanjayhashcash/go/issues/2370
 	sort.Strings(ids)
 
 	err := bulkInsert(

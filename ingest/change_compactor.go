@@ -3,8 +3,8 @@ package ingest
 import (
 	"encoding/base64"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // ChangeCompactor is a cache of ledger entry changes that squashes all

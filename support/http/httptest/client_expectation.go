@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/jarcoal/httpmock"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // Return specifies the response for a ClientExpectation, which is then

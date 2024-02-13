@@ -3,8 +3,8 @@ package federation
 import (
 	"context"
 
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // LookupRecord implements `Driver` by performing `drv.LookupRecordQuery`

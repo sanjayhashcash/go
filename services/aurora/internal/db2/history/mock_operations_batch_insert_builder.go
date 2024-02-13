@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/guregu/null"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/xdr"
 	"github.com/stretchr/testify/mock"
 )
 

@@ -3,13 +3,13 @@ package serve
 import (
 	"net/http"
 
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/account"
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/serve/auth"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/http/httpdecode"
-	supportlog "github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/httpjson"
+	"github.com/sanjayhashcash/go/exp/services/recoverysigner/internal/account"
+	"github.com/sanjayhashcash/go/exp/services/recoverysigner/internal/serve/auth"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/http/httpdecode"
+	supportlog "github.com/sanjayhashcash/go/support/log"
+	"github.com/sanjayhashcash/go/support/render/httpjson"
 )
 
 type accountPostHandler struct {

@@ -3,9 +3,9 @@ package orderbook
 import (
 	"context"
 
-	"github.com/hcnet/go/price"
-	"github.com/hcnet/go/support/ordered"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/price"
+	"github.com/sanjayhashcash/go/support/ordered"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // Path represents a payment path from a source asset to some destination asset

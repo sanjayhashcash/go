@@ -1,7 +1,7 @@
 package orderbook
 
 import (
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // getPoolAssets retrieves string representations of a pool's reserves

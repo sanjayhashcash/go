@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
 
 	"github.com/2opremio/pretty"
 	"github.com/creachadair/jrpc2"
@@ -24,18 +24,18 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 
-	sdk "github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/clients/hcnetcore"
-	"github.com/hcnet/go/ingest/ledgerbackend"
-	"github.com/hcnet/go/keypair"
-	proto "github.com/hcnet/go/protocols/aurora"
-	aurora "github.com/hcnet/go/services/aurora/internal"
-	"github.com/hcnet/go/services/aurora/internal/ingest"
-	"github.com/hcnet/go/support/config"
-	"github.com/hcnet/go/support/db/dbtest"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/txnbuild"
-	"github.com/hcnet/go/xdr"
+	sdk "github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/clients/hcnetcore"
+	"github.com/sanjayhashcash/go/ingest/ledgerbackend"
+	"github.com/sanjayhashcash/go/keypair"
+	proto "github.com/sanjayhashcash/go/protocols/aurora"
+	aurora "github.com/sanjayhashcash/go/services/aurora/internal"
+	"github.com/sanjayhashcash/go/services/aurora/internal/ingest"
+	"github.com/sanjayhashcash/go/support/config"
+	"github.com/sanjayhashcash/go/support/db/dbtest"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/txnbuild"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 const (

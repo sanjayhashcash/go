@@ -5,7 +5,7 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/support/db"
+	"github.com/sanjayhashcash/go/support/db"
 )
 
 // EffectBatchInsertBuilder is used to insert effects into the

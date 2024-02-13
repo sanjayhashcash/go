@@ -7,10 +7,10 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/protocols/aurora/effects"
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/toid"
+	"github.com/sanjayhashcash/go/protocols/aurora/effects"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/toid"
 )
 
 func TestEffectsForLiquidityPool(t *testing.T) {

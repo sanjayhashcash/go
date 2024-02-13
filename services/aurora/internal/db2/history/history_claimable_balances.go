@@ -6,8 +6,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // QHistoryClaimableBalances defines account related queries.
@@ -27,7 +27,7 @@ func (q *Q) CreateHistoryClaimableBalances(ctx context.Context, ids []string, ba
 	}
 
 	// sort before inserting to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/hcnet/go/issues/2370
+	// https://github.com/sanjayhashcash/go/issues/2370
 	sort.Strings(ids)
 	for _, id := range ids {
 		err := builder.Row(ctx, map[string]interface{}{

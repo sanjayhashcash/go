@@ -9,12 +9,12 @@ import (
 
 	"github.com/guregu/null"
 
-	auroraContext "github.com/hcnet/go/services/aurora/internal/context"
-	"github.com/hcnet/go/xdr"
+	auroraContext "github.com/sanjayhashcash/go/services/aurora/internal/context"
+	"github.com/sanjayhashcash/go/xdr"
 
-	protocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/render/hal"
+	protocol "github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/support/render/hal"
 )
 
 // Populate fills out the details

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hcnet/go/gxdr"
-	"github.com/hcnet/go/randxdr"
+	"github.com/sanjayhashcash/go/gxdr"
+	"github.com/sanjayhashcash/go/randxdr"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	sdk "github.com/hcnet/go/clients/auroraclient"
-	hEffects "github.com/hcnet/go/protocols/aurora/effects"
-	"github.com/hcnet/go/protocols/aurora/operations"
-	"github.com/hcnet/go/services/aurora/internal/test/integration"
-	"github.com/hcnet/go/txnbuild"
-	"github.com/hcnet/go/xdr"
+	sdk "github.com/sanjayhashcash/go/clients/auroraclient"
+	hEffects "github.com/sanjayhashcash/go/protocols/aurora/effects"
+	"github.com/sanjayhashcash/go/protocols/aurora/operations"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test/integration"
+	"github.com/sanjayhashcash/go/txnbuild"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func TestClaimableBalanceCreationOperationsAndEffects(t *testing.T) {

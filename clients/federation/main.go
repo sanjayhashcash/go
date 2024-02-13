@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"net/url"
 
-	hc "github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/clients/hcnettoml"
-	proto "github.com/hcnet/go/protocols/federation"
+	hc "github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/clients/hcnettoml"
+	proto "github.com/sanjayhashcash/go/protocols/federation"
 )
 
 // FederationResponseMaxSize is the maximum size of response from a federation server

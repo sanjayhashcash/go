@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 func TestPutKeys(t *testing.T) {

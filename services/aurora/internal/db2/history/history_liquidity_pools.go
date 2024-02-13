@@ -6,8 +6,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // QHistoryLiquidityPools defines account related queries.
@@ -31,7 +31,7 @@ func (q *Q) CreateHistoryLiquidityPools(ctx context.Context, poolIDs []string, b
 	}
 
 	// sort before inserting to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/hcnet/go/issues/2370
+	// https://github.com/sanjayhashcash/go/issues/2370
 	sort.Strings(poolIDs)
 	var deduped []string
 	for i, id := range poolIDs {

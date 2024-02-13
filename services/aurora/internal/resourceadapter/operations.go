@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/protocols/aurora/operations"
-	auroraContext "github.com/hcnet/go/services/aurora/internal/context"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/render/hal"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/protocols/aurora/operations"
+	auroraContext "github.com/sanjayhashcash/go/services/aurora/internal/context"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/support/render/hal"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // NewOperation creates a new operation resource, finding the appropriate type to use

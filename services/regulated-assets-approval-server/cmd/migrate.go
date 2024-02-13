@@ -7,10 +7,10 @@ import (
 
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/services/regulated-assets-approval-server/internal/db"
-	"github.com/hcnet/go/services/regulated-assets-approval-server/internal/db/dbmigrate"
-	"github.com/hcnet/go/support/config"
-	"github.com/hcnet/go/support/log"
+	"github.com/sanjayhashcash/go/services/regulated-assets-approval-server/internal/db"
+	"github.com/sanjayhashcash/go/services/regulated-assets-approval-server/internal/db/dbmigrate"
+	"github.com/sanjayhashcash/go/support/config"
+	"github.com/sanjayhashcash/go/support/log"
 )
 
 type MigrateCommand struct {

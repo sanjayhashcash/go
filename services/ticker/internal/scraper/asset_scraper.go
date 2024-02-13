@@ -14,11 +14,11 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	auroraclient "github.com/hcnet/go/clients/auroraclient"
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/ticker/internal/utils"
-	"github.com/hcnet/go/support/errors"
-	hlog "github.com/hcnet/go/support/log"
+	auroraclient "github.com/sanjayhashcash/go/clients/auroraclient"
+	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/services/ticker/internal/utils"
+	"github.com/sanjayhashcash/go/support/errors"
+	hlog "github.com/sanjayhashcash/go/support/log"
 )
 
 // shouldDiscardAsset maps the criteria for discarding an asset from the asset index

@@ -1,9 +1,9 @@
 package ingest
 
 import (
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // GenesisChange returns the Change occurring at the genesis ledger (ledgerseq = 1)..

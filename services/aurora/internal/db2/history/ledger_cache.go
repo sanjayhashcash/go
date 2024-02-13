@@ -3,8 +3,8 @@ package history
 import (
 	"context"
 
-	"github.com/hcnet/go/support/collections/set"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/collections/set"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 // Queue adds `seq` to the load queue for the cache.

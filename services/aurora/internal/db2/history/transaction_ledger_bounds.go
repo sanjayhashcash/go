@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/guregu/null"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // LedgerBounds represents the ledger bounds of a Hcnet transaction

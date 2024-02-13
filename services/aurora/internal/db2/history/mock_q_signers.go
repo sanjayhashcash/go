@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/hcnet/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
 )
 
 type MockQSigners struct {

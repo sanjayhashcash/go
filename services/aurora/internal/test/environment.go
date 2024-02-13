@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 type EnvironmentManager struct {

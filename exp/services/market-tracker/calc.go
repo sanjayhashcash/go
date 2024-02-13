@@ -3,7 +3,7 @@ package main
 import (
 	"math"
 
-	hProtocol "github.com/hcnet/go/protocols/aurora"
+	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
 )
 
 func calcSpreadPctForOrderBook(obStats hProtocol.OrderBookSummary) float64 {

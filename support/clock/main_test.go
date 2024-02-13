@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/support/clock"
-	"github.com/hcnet/go/support/clock/clocktest"
+	"github.com/sanjayhashcash/go/support/clock"
+	"github.com/sanjayhashcash/go/support/clock/clocktest"
 	"github.com/stretchr/testify/assert"
 )
 

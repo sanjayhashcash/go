@@ -13,21 +13,21 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/protocols/aurora/base"
-	"github.com/hcnet/go/strkey"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/protocols/aurora/base"
+	"github.com/sanjayhashcash/go/strkey"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	. "github.com/hcnet/go/services/aurora/internal/test/transactions"
-	"github.com/hcnet/go/support/contractevents"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	. "github.com/sanjayhashcash/go/services/aurora/internal/test/transactions"
+	"github.com/sanjayhashcash/go/support/contractevents"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/toid"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 const (
@@ -1682,7 +1682,7 @@ func TestOperationEffectsSetOptionsSignersOrder(t *testing.T) {
 	assertIngestEffects(t, operation, expected)
 }
 
-// Regression for https://github.com/hcnet/go/issues/2136
+// Regression for https://github.com/sanjayhashcash/go/issues/2136
 func TestOperationEffectsSetOptionsSignersNoUpdated(t *testing.T) {
 	transaction := ingest.LedgerTransaction{
 		UnsafeMeta: createTransactionMeta([]xdr.OperationMeta{

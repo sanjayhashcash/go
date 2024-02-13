@@ -2,7 +2,7 @@
 package main
 
 import (
-	"github.com/hcnet/go/txnbuild/cmd/demo/cmd"
+	"github.com/sanjayhashcash/go/txnbuild/cmd/demo/cmd"
 )
 
 func main() {

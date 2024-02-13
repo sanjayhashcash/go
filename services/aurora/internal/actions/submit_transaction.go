@@ -6,15 +6,15 @@ import (
 	"mime"
 	"net/http"
 
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/protocols/aurora"
-	hProblem "github.com/hcnet/go/services/aurora/internal/render/problem"
-	"github.com/hcnet/go/services/aurora/internal/resourceadapter"
-	"github.com/hcnet/go/services/aurora/internal/txsub"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/render/hal"
-	"github.com/hcnet/go/support/render/problem"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/network"
+	"github.com/sanjayhashcash/go/protocols/aurora"
+	hProblem "github.com/sanjayhashcash/go/services/aurora/internal/render/problem"
+	"github.com/sanjayhashcash/go/services/aurora/internal/resourceadapter"
+	"github.com/sanjayhashcash/go/services/aurora/internal/txsub"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/render/hal"
+	"github.com/sanjayhashcash/go/support/render/problem"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 type NetworkSubmitter interface {

@@ -9,15 +9,15 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/services/regulated-assets-approval-server/internal/db"
-	"github.com/hcnet/go/services/regulated-assets-approval-server/internal/serve/kycstatus"
-	"github.com/hcnet/go/support/errors"
-	supporthttp "github.com/hcnet/go/support/http"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/health"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/services/regulated-assets-approval-server/internal/db"
+	"github.com/sanjayhashcash/go/services/regulated-assets-approval-server/internal/serve/kycstatus"
+	"github.com/sanjayhashcash/go/support/errors"
+	supporthttp "github.com/sanjayhashcash/go/support/http"
+	"github.com/sanjayhashcash/go/support/log"
+	"github.com/sanjayhashcash/go/support/render/health"
 )
 
 type Options struct {

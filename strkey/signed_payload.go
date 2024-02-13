@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	xdr "github.com/stellar/go-xdr/xdr3"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 type SignedPayload struct {

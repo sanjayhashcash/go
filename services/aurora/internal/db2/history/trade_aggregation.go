@@ -7,10 +7,10 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/support/errors"
-	strtime "github.com/hcnet/go/support/time"
-	"github.com/hcnet/go/toid"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/support/errors"
+	strtime "github.com/sanjayhashcash/go/support/time"
+	"github.com/sanjayhashcash/go/toid"
 )
 
 // AllowedResolutions is the set of trade aggregation time windows allowed to be used as the

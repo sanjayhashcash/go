@@ -8,13 +8,13 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/services/friendbot/internal"
-	"github.com/hcnet/go/support/app"
-	"github.com/hcnet/go/support/config"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/http"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/sanjayhashcash/go/services/friendbot/internal"
+	"github.com/sanjayhashcash/go/support/app"
+	"github.com/sanjayhashcash/go/support/config"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/http"
+	"github.com/sanjayhashcash/go/support/log"
+	"github.com/sanjayhashcash/go/support/render/problem"
 )
 
 // Config represents the configuration of a friendbot server

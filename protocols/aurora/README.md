@@ -23,8 +23,8 @@ For each new version we will only track changes from the previous version.
 
 #### SDKs with full support
 
-- [JS SDK 0.10.2](https://github.com/hcnet/js-hcnet-sdk/releases/tag/v0.10.2)
-- [Java SDK 0.4.0](https://github.com/hcnet/java-hcnet-sdk/releases/tag/0.4.0)
+- [JS SDK 0.10.2](https://github.com/sanjayhashcash/js-hcnet-sdk/releases/tag/v0.10.2)
+- [Java SDK 0.4.0](https://github.com/sanjayhashcash/java-hcnet-sdk/releases/tag/0.4.0)
 
 #### Changes
 
@@ -57,8 +57,8 @@ instead of per request.
 
 #### SDKs with full support
 
-- [JS SDK 0.10.2](https://github.com/hcnet/js-hcnet-sdk/releases/tag/v0.10.2)
-- [Java SDK 0.3.1](https://github.com/hcnet/java-hcnet-sdk/releases/tag/0.3.1)
+- [JS SDK 0.10.2](https://github.com/sanjayhashcash/js-hcnet-sdk/releases/tag/v0.10.2)
+- [Java SDK 0.3.1](https://github.com/sanjayhashcash/java-hcnet-sdk/releases/tag/0.3.1)
 
 #### Changes
 
@@ -96,8 +96,8 @@ instead of per request.
 
 #### SDKs with full support
 
-- [JS SDK 0.8.2](https://github.com/hcnet/js-hcnet-sdk/releases/tag/v0.8.2)
-- [Java SDK 0.2.1](https://github.com/hcnet/java-hcnet-sdk/releases/tag/0.2.1)
+- [JS SDK 0.8.2](https://github.com/sanjayhashcash/js-hcnet-sdk/releases/tag/v0.8.2)
+- [Java SDK 0.2.1](https://github.com/sanjayhashcash/java-hcnet-sdk/releases/tag/0.2.1)
 
 #### Changes
 
@@ -122,8 +122,8 @@ instead of per request.
 
 #### SDKs with full support
 
-- [JS SDK 0.8.2](https://github.com/hcnet/js-hcnet-sdk/releases/tag/v0.8.2)
-- [Java SDK 0.2.1](https://github.com/hcnet/java-hcnet-sdk/releases/tag/0.2.1)
+- [JS SDK 0.8.2](https://github.com/sanjayhashcash/js-hcnet-sdk/releases/tag/v0.8.2)
+- [Java SDK 0.2.1](https://github.com/sanjayhashcash/java-hcnet-sdk/releases/tag/0.2.1)
 
 #### Changes
 

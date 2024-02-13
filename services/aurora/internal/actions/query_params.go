@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/render/problem"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/render/problem"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // SellingBuyingAssetQueryParams query struct for end-points requiring a selling

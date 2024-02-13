@@ -8,14 +8,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	sdk "github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/keypair"
-	protocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/protocols/aurora/effects"
-	"github.com/hcnet/go/protocols/aurora/operations"
-	"github.com/hcnet/go/services/aurora/internal/test/integration"
-	"github.com/hcnet/go/txnbuild"
-	"github.com/hcnet/go/xdr"
+	sdk "github.com/sanjayhashcash/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/keypair"
+	protocol "github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/sanjayhashcash/go/protocols/aurora/effects"
+	"github.com/sanjayhashcash/go/protocols/aurora/operations"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test/integration"
+	"github.com/sanjayhashcash/go/txnbuild"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 func TestSponsorships(t *testing.T) {
@@ -385,7 +385,7 @@ func TestSponsorships(t *testing.T) {
 		tt.Condition(preAuthSignerAdded)
 
 		// We don't check effects because we don't process transaction-level changes
-		// See https://github.com/hcnet/go/pull/3050#discussion_r493651644
+		// See https://github.com/sanjayhashcash/go/pull/3050#discussion_r493651644
 	})
 
 	// Let's add a sponsored data entry

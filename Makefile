@@ -51,7 +51,7 @@ xdr/%.x:
 xdr/xdr_generated.go: $(XDRS)
 	docker run -it --rm -v $$PWD:/wd -w /wd ruby /bin/bash -c '\
 		gem install specific_install -v 0.3.8 && \
-		gem specific_install https://github.com/hcnet/xdrgen.git -b $(XDRGEN_COMMIT) && \
+		gem specific_install https://github.com/sanjayhashcash/xdrgen.git -b $(XDRGEN_COMMIT) && \
 		xdrgen \
 			--language go \
 			--namespace xdr \

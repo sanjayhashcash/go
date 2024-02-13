@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/hcnet/go/gxdr"
-	"github.com/hcnet/go/randxdr"
+	"github.com/sanjayhashcash/go/gxdr"
+	"github.com/sanjayhashcash/go/randxdr"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

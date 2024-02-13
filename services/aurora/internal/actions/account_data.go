@@ -4,8 +4,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hcnet/go/services/aurora/internal/context"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/services/aurora/internal/context"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
 )
 
 // AccountDataQuery query struct for account data end-point

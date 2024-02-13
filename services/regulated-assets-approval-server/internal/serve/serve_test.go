@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/clients/auroraclient"
+	"github.com/sanjayhashcash/go/clients/auroraclient"
 	"github.com/stretchr/testify/require"
 )
 

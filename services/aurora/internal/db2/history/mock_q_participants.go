@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/hcnet/go/support/db"
+	"github.com/sanjayhashcash/go/support/db"
 )
 
 // MockQParticipants is a mock implementation of the QParticipants interface

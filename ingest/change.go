@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // Change is a developer friendly representation of LedgerEntryChanges.
@@ -38,7 +38,7 @@ func (c *Change) ledgerKey() (xdr.LedgerKey, error) {
 // - for removed, pre is previous state and post is null.
 //
 // hcnet-core source:
-// https://github.com/hcnet/hcnet-core/blob/e584b43/src/ledger/LedgerTxn.cpp#L582
+// https://github.com/sanjayhashcash/hcnet-core/blob/e584b43/src/ledger/LedgerTxn.cpp#L582
 func GetChangesFromLedgerEntryChanges(ledgerEntryChanges xdr.LedgerEntryChanges) []Change {
 	changes := make([]Change, 0, len(ledgerEntryChanges))
 	for i, entryChange := range ledgerEntryChanges {

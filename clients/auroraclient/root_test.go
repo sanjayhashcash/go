@@ -3,7 +3,7 @@ package auroraclient
 import (
 	"testing"
 
-	"github.com/hcnet/go/support/http/httptest"
+	"github.com/sanjayhashcash/go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/services/aurora/internal/test"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
+	"github.com/sanjayhashcash/go/services/aurora/internal/test"
 )
 
 func TestQueryEmptyAccountSigners(t *testing.T) {

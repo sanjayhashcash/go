@@ -11,16 +11,16 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/protocols/aurora/base"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/strkey"
-	"github.com/hcnet/go/support/contractevents"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/protocols/aurora/base"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/strkey"
+	"github.com/sanjayhashcash/go/support/contractevents"
+	"github.com/sanjayhashcash/go/support/db"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // EffectProcessor process effects
@@ -166,7 +166,7 @@ func (operation *transactionOperationWrapper) ingestEffects(accountLoader *histo
 		}
 
 		// For now, the only effects are related to the events themselves.
-		// Possible add'l work: https://github.com/hcnet/go/issues/4585
+		// Possible add'l work: https://github.com/sanjayhashcash/go/issues/4585
 		err = wrapper.addInvokeHostFunctionEffects(filterEvents(diagnosticEvents))
 	case xdr.OperationTypeExtendFootprintTtl, xdr.OperationTypeRestoreFootprint:
 		// do not produce effects for these operations as aurora only provides

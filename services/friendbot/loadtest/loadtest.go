@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 type maybeDuration struct {

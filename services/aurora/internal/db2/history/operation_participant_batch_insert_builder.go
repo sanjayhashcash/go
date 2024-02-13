@@ -3,7 +3,7 @@ package history
 import (
 	"context"
 
-	"github.com/hcnet/go/support/db"
+	"github.com/sanjayhashcash/go/support/db"
 )
 
 // OperationParticipantBatchInsertBuilder is used to insert a transaction's operations into the

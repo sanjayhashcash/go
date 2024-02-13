@@ -5,9 +5,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/errors"
-	logpkg "github.com/hcnet/go/support/log"
+	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/sanjayhashcash/go/support/errors"
+	logpkg "github.com/sanjayhashcash/go/support/log"
 )
 
 const (

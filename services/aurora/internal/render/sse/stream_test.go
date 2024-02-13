@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"testing"
 
-	hProblem "github.com/hcnet/go/services/aurora/internal/render/problem"
-	"github.com/hcnet/go/support/render/problem"
-	"github.com/hcnet/go/support/test"
+	hProblem "github.com/sanjayhashcash/go/services/aurora/internal/render/problem"
+	"github.com/sanjayhashcash/go/support/render/problem"
+	"github.com/sanjayhashcash/go/support/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

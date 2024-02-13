@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/http/httpdecode"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/http/httpdecode"
+	"github.com/sanjayhashcash/go/support/render/problem"
 )
 
 var (

@@ -3,8 +3,8 @@ package txnbuild
 import (
 	"github.com/pkg/errors"
 
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/amount"
+	"github.com/sanjayhashcash/go/xdr"
 )
 
 // Clawback represents the Hcnet clawback operation. See
